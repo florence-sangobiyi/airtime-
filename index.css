@@ -1,0 +1,131 @@
+body {font-family: 'CircularStd', sans-serif;}
+* {box-sizing: border-box}
+img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100px;
+    display: block;
+
+  }
+  body {
+    background-color:#00AEFF
+  }
+
+  /* img{
+position: absolute;
+left: 10.93%;
+right: 75.2%;
+top: 22.17%;
+bottom: 71.43%;
+background: #00AEFF;
+background-size: 86px;
+background-repeat: no-repeat
+} */
+#container{
+    display:flex;
+    justify-content:space-between;
+    max-width:300px;
+    margin-bottom: 10px;
+    }
+    
+  #container .column img { 
+        height: 40px;
+        width: 40px;
+    
+}
+#content {
+    background-color: #fff;
+    max-width: 300px;
+    border:none;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 15px 15px 0 0;
+
+}
+#textbox{
+    border-bottom:  0.5px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+#content input{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+    background: #E0EBF8;
+    border: 0.5px solid #E0EBF8;
+
+}
+input::placeholder {
+    text-align: center;
+}
+  .btn{
+      width: 250px;
+      height: 30px;
+      background: #10497D;
+      color: #fff;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+  }
+  h1,h2,h3{
+      color: #fff;
+
+  }
+#heading{
+    max-width:  350px;
+    text-align: center;
+    }
+#heading h1{
+    font-size: 14px;
+}
+#sub-heading h2{
+    font-size: 16px;
+}
+#sub-heading h3{
+    font-size: 12px;
+}
+.column{
+    width: 20%;
+    color: #fff;
+    font-size: 12px;
+
+}
+  #image{
+      background-color: #fff;
+      height:50px;
+      margin-bottom: 7px;
+      display: flex;
+      justify-content: center;
+      align-items:center ;
+      border-radius: 7px;
+  }
+  #image::hover {
+      height: 60px;
+
+  }
+  #image::hover img {
+    width: 50px;
+    height: 50px;
+  }
+  .alignleft{
+    background: #10497D;
+    border: none;
+    color: #fff;
+    height: 25px;
+    border-radius: 4px;
+
+  }
+  .alignright{
+      background: #fff;
+      border: none;
+      height: 25px;
+      border-radius: 4px;
+  }
+  
+  #page-wrrap{
+      max-width: 500px;
+      margin:0 auto;
+      padding: 10%;
+  }
